@@ -1,0 +1,56 @@
+Notizen: (13.12.2018 @ Herr Hübsch)
+
+
+Struktogramm und Program-ablaufplan nicht bei OOP...
+
+Aufgabe:
+
+Zahlen eingeben, bis Abbruchtaste "e" gedrückt wurde + Ausgabe der Summe!
+
+Fehlerhafte Benutzereingabe abfangen!
+
+kumulative Addition (Summe = Summe + Zahl)
+                    Bsp: 0 = 0 + 5
+                    Bsp: 8 = 5 + 3 ... usw.
+
+-Verwendung von Kopf- oder Fußgesteuerter Schleifen.
+______
+Kundenprogramm:
+Artikel, Artikelmenge, Einzelpreis;
+Berechnung für mehrere Benutzereingaben;
+
+Notizen: (14.12.2018 @ Herr Hübsch)
+
+if; else if; else bei Verschachtelung Reihenfolge beachten...
+______
+Array Datentyp: (Array List, ggf. besser)
+erzeugen:
+
+z.B.      string [] Artikel = new string [];
+wo z.B.   string [,] Schachbrett = new String [zeile, spalte];
+
+...
+int größe = Artikel.length();  // bei Mehrdim. Array´s #aller Elemente d. Arrays
+vs.
+foreach //hat keine zählervariable!
+...
+Todo: C# für IT-Berufe: S.120 code nachbauen verwendung von int ende @ MinimumIndex(....)
+
+Notizen: (17.12.2018 @ Herr Hübsch)
+
+A.Klassen und Methoden vs. B.Klassen und Objekte UND Methoden:
+OO-P Methoden  (B) sind an objekte gebunden! S.61 - S.77 C# für IT-Berufe
+
+ Konstruktor; Instanzierung;
+
+Aufgabe:
+Klassenvariablen sollten private (std.) sein, dafür sollte es dann public Methoden geben,
+die public sind. Überprüfung der Übergabewerte innerhalb der (public) Methoden!
+in C#: getter und setter automatisiert erzeugbar...
+schreibend Methode(WERT)
+lesend "rückgabeWert" Methode
+
+oder Get & Set Methode...
+via. property nur im Fall: zugriff auf var´s.. ohne Anpassungen.
+
+Objekte sind "Referenzvariablen" (vgl. Wertvariablen int ...)
