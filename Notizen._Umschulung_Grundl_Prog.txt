@@ -54,3 +54,7 @@ oder Get & Set Methode...
 via. property nur im Fall: zugriff auf var´s.. ohne Anpassungen.
 
 Objekte sind "Referenzvariablen" (vgl. Wertvariablen int ...)
+
+_________________________________________________
+Notizen: (20.12.2018 @ Herr Hübsch)
+_________________________________________________
